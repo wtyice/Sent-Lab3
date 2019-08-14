@@ -1,0 +1,40 @@
+.pull-right {float: right;}
+.pull-left {float: left;}
+.pull-left {float: center;}
+
+input {
+    font-size: 0.8rem;
+    height: 15px;
+  }
+    
+input[type="search"] {
+    flex: 3;
+  }
+
+ h1, h2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+  
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+main article  {
+  text-align : center;
+  font-weight: bold;
+}
+
+
+
